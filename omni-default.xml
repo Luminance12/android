@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- FIRST: Remove unused/forked AOSP Projects -->
   <include name="remove.xml" />
-
-  <!-- Include forked AOSP -->
   <include name="omni-aosp.xml" />
-
-  <!-- Include forked CAF -->
   <include name="omni-caf.xml" />
-  
+  <include name="omni-append.xml" />
+
   <remote name="lumi" fetch="https://github.com/carlstrand" />
   
-  <!-- OmniROM Projects -->
   <project path="android" name="android" remote="lumi" revision="android-8.1" />
-
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.1" />
 
   <project path="external/exfat" name="android_external_exfat" remote="omnirom" revision="android-8.1" />
