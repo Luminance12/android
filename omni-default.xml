@@ -10,6 +10,8 @@
   <!-- Include forked CAF -->
   <include name="omni-caf.xml" />
   
+  <remote name="lumi" fetch="https://github.com/carlstrand" />
+  
   <!-- OmniROM Projects -->
   <project path="android" name="android" remote="lumi" revision="android-8.1" />
 
