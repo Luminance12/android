@@ -3,6 +3,9 @@
   <include name="remove.xml" />
   <include name="omni-aosp.xml" />
   <include name="omni-caf.xml" />
+  
+  <remote  name="lumi" fetch="https://github.com/Luminance12" />
+  
   <project path="android" name="android" remote="omnirom" revision="android-8.1" />
 
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-8.1" />
