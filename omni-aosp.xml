@@ -93,7 +93,4 @@
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="omnirom" revision="android-8.1" />
   <project path="system/update_engine" name="android_system_update_engine" remote="omnirom" revision="android-8.1" />
   
-  <project path="vendor/huawei" name="proprietary_vendor_huawei_vndk" remote="lumi" revision="aosp" />
-  <project path="device/huawei" name="android_device_huawei_phone" remote="lumi" revision="cr-6.1" />
-  <project path="device/huawei" name="android_device_huawei_common" remote="lumi" revision="cr-6.1" />
 </manifest>
