@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="lumi" fetch="https://github.com/carlstrand" />
-  <project path="vendor/huawei/common" name="proprietary_vendor_huawei_vndk" remote="lumi" revision="aosp" />
   <project path="device/huawei/blanc" name="android_device_huawei_phone" remote="lumi" revision="cr-6.1" />
-  <project path="device/huawei/common" name="android_device_huawei_common" remote="lumi" revision="cr-6.1" />
 </manifest>
